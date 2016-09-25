@@ -1,3 +1,9 @@
+## Running with Docker Compose
+
+ * `docker build -t sqlserver:2016 -f .\docker\mssql-server-2016-express\Dockerfile .\docker\mssql-server-2016-express\.`
+ * `docker-compose -f .\src\MusicStore\docker-compose.yml up`
+ * Open a browser and open `http://<ip-of-vm-running-docker>:5000/`
+
 ## Demo script
 
  1. $Env:DOCKER_HOST = "vm-ip:2375"
